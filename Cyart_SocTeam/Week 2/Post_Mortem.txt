@@ -1,0 +1,1 @@
+Summary: The phishing breach was successful due to a lack of DMARC enforcement on external mail. While the SOC responded quickly by isolating users, the primary process improvement must be technical: enforce strict DMARC "reject" policies and implement mandatory annual security awareness training for high-risk departments.

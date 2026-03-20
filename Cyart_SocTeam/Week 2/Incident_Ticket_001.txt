@@ -1,0 +1,7 @@
+TITLE: [Critical] Ransomware Detected on Server-X
+DESCRIPTION: Automated detection of crypto-locking process. 
+INDICATORS: [File: crypto_locker.exe], [IP: 192.168.1.50]
+PRIORITY: Critical
+ASSIGNEE: SOC Analyst
+STATUS: Open
+TAGS: Ransomware, Server-X, Critical_Impact

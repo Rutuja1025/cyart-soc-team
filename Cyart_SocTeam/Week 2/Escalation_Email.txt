@@ -1,0 +1,17 @@
+Subject: URGENT: Escalation of Critical Ransomware Incident - Server-X
+
+Dear Tier 2 SOC Team,
+
+I am escalating a Critical alert regarding Server-X (192.168.1.50). Our Wazuh agent detected a process execution match for "crypto_locker.exe" at 14:00 today.
+
+Initial triage confirms unauthorized file encryption activity in the /home directory. 
+
+IOCs:
+- Source IP: 192.168.1.50
+- File Name: crypto_locker.exe
+- Process ID: 4502
+
+I have performed a network isolation of the host via Wazuh Active Response. Please conduct a full forensic analysis and provide guidance on recovery from backups.
+
+Regards,
+SOC Analyst (Rutuja Utekar)
